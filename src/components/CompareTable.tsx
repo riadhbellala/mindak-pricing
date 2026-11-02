@@ -10,8 +10,52 @@ export function CompareTable({ category }: { category: Category }) {
   const featuredCol = category.plans.findIndex((p) => p.featured);
   const { columns, rows } = category.compare;
 
+  const cell = (value: boolean | string) =>
+    value === true ? (
+      <>
+        <CheckIcon className="inline-block" />
+        <span className="sr-only">{labels.included}</span>
+      </>
+    ) : value === false ? (
+      <>
+        <span aria-hidden="true" className="text-ink-2">
+          –
+        </span>
+        <span className="sr-only">{labels.notIncluded}</span>
+      </>
+    ) : (
+      value
+    );
+
   return (
-    <table className="w-full table-fixed border-collapse text-left text-[14px] sm:text-[16px]">
+    <>
+      {/* Phones: one block per feature, every pack side by side underneath */}
+      <ul className="flex flex-col gap-2 md:hidden" aria-label={labels.compareCaption(category.label)}>
+        {rows.map((row) => (
+          <li key={row.label} className="bg-paper-2 px-4 py-3.5">
+            <p className="text-[15px] font-semibold">{row.label}</p>
+            <dl
+              className="mt-2.5 grid gap-2"
+              style={{ gridTemplateColumns: `repeat(${columns.length}, minmax(0, 1fr))` }}
+            >
+              {columns.map((col, i) => (
+                <div
+                  key={col}
+                  className={clsx(
+                    "flex flex-col gap-1 bg-paper px-2.5 py-2",
+                    i === featuredCol && "border-t-[3px] border-lime",
+                  )}
+                >
+                  <dt className="text-[12px] leading-tight font-medium text-ink-2">{col}</dt>
+                  <dd className="tnum text-[15px] font-semibold">{cell(row.values[i])}</dd>
+                </div>
+              ))}
+            </dl>
+          </li>
+        ))}
+      </ul>
+
+    <table className="hidden w-full table-fixed border-collapse text-left text-[16px] md:table">
       <caption className="sr-only">{labels.compareCaption(category.label)}</caption>
       <colgroup>
         <col className={columns.length > 2 ? "w-[30%] sm:w-[40%]" : "w-[46%] sm:w-[50%]"} />
@@ -52,26 +96,13 @@ export function CompareTable({ category }: { category: Category }) {
             </th>
             {row.values.map((value, i) => (
               <td key={i} className="tnum border-b border-rule px-0.5 py-3 text-center text-[13px] font-medium sm:px-3 sm:py-4 sm:text-[16px]">
-                {value === true ? (
-                  <>
-                    <CheckIcon className="inline-block" />
-                    <span className="sr-only">{labels.included}</span>
-                  </>
-                ) : value === false ? (
-                  <>
-                    <span aria-hidden="true" className="text-ink-2">
-                      –
-                    </span>
-                    <span className="sr-only">{labels.notIncluded}</span>
-                  </>
-                ) : (
-                  value
-                )}
+                {cell(value)}
               </td>
             ))}
           </tr>
         ))}
       </tbody>
     </table>
+    </>
   );
 }

@@ -13,11 +13,11 @@ export function OptionsGrid({ category }: { category: Category }) {
   const remainder = (4 - (options.length % 4)) % 4;
 
   return (
-    <div className="grid grid-cols-1 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4 lg:gap-4">
       {options.map((option, i) => (
         <div
           key={i}
-          className="flex flex-col border-t border-rule py-5 sm:border-ink sm:pt-6 sm:pb-8"
+          className="flex flex-col bg-paper-2 p-5 sm:p-6"
           data-reveal
           style={{ "--i": i } as React.CSSProperties}
         >
@@ -53,7 +53,7 @@ export function OptionsGrid({ category }: { category: Category }) {
       {remainder > 0 && (
         <div
           className={clsx(
-            "flex flex-col justify-between gap-6 bg-paper-2 p-6 pb-8",
+            "flex flex-col justify-between gap-6 border border-ink/15 p-5 sm:p-6",
             fillSpan[remainder],
           )}
           data-reveal

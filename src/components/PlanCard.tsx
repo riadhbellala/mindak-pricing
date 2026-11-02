@@ -25,8 +25,8 @@ export function PlanCard({ plan, index }: { plan: Plan; index: number }) {
       aria-labelledby={titleId}
       data-surface={featured ? "ink" : undefined}
       className={clsx(
-        "relative row-span-5 grid grid-rows-subgrid px-5 pt-7 pb-8 transition-colors duration-200 sm:px-8 md:px-6 lg:px-10",
-        featured ? "bg-ink text-paper" : "bg-paper text-ink",
+        "relative row-span-5 grid grid-rows-subgrid border px-5 pt-7 pb-8 transition-colors duration-200 max-md:mb-4 max-md:last:mb-0 sm:px-8 md:px-6 lg:px-9",
+        featured ? "border-ink bg-ink text-paper" : "border-ink/15 bg-paper text-ink",
       )}
     >
       {featured && (
@@ -84,8 +84,10 @@ export function PlanCard({ plan, index }: { plan: Plan; index: number }) {
       </div>
 
       {/* Row 4: features, separated by space rather than lines */}
-      <Swap id={`${plan.id}-features`} className="pt-7 md:pt-9">
-        {plan.inherits && <p className="pb-4 text-[15px] font-semibold">{plan.inherits}</p>}
+      <Swap id={`${plan.id}-features`} className="pt-7">
+        <p className="border-t pt-6 pb-4 text-[15px] font-semibold" style={{ borderColor: featured ? "var(--color-rule-ink)" : "var(--color-rule)" }}>
+          {plan.inherits ?? labels.includes}
+        </p>
         <ul className="flex flex-col gap-3.5">
           {plan.features.map((feature) => (
             <li key={feature} className="flex items-start gap-3 text-[16px] leading-[1.4]">

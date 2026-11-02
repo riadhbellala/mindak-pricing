@@ -104,6 +104,8 @@ export const labels = {
   from: "À partir de",
   currency: "DA",
   featured: "Le plus choisi",
+  includes: "Inclus dans le pack :",
+  compareYes: "Inclus",
   delay: "Délai",
   examples: "Exemples réels",
   optionsIndex: "(02)",

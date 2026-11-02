@@ -110,19 +110,18 @@ export function PricingExplorer() {
 
         <div id="pricing-panel" role="tabpanel" aria-labelledby={`tab-${active}`}>
           {/* Plans first: the visitor came to choose a pack */}
-          <section aria-labelledby="plans-title" className="pt-12 md:pt-24">
+          <section aria-labelledby="plans-title" className="pt-10 md:pt-12">
             <SectionHeader
               id="plans-title"
               roman={category.heading[0]}
               italic={category.heading[1]}
               note={labels.plansNote}
+              srOnlyTitle
             />
-            <Container className="mt-7 md:mt-14">
+            <Container className="mt-6 md:mt-8">
               <div
                 className={clsx(
-                  "isolate mx-auto grid grid-cols-1 border-y border-ink",
-                  "[&>article+article]:border-t [&>article+article]:border-rule",
-                  "md:[&>article+article]:border-t-0 md:[&>article+article]:border-l",
+                  "isolate mx-auto grid grid-cols-1 gap-x-4 lg:gap-x-6",
                   planCols[category.plans.length],
                   category.plans.length === 2 && "max-w-[880px]",
                 )}

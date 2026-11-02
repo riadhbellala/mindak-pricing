@@ -5,12 +5,12 @@ import { Highlight } from "./Highlight";
 
 export function Hero() {
   return (
-    <section id="top" aria-labelledby="hero-title" className="relative pt-14 pb-10 md:pt-32 md:pb-20">
+    <section id="top" aria-labelledby="hero-title" className="relative pt-14 pb-10 md:pt-20 md:pb-12">
       <CornerFrame />
       <Container className="flex flex-col items-center text-center">
         <h1
           id="hero-title"
-          className="text-[44px] leading-[0.95] font-semibold tracking-[-0.04em] sm:text-[64px] md:text-[88px] lg:text-[104px]"
+          className="text-[42px] leading-[0.98] font-semibold tracking-[-0.04em] sm:text-[60px] md:text-[72px] lg:text-[84px]"
         >
           <span className="block">{hero.titleLines[0]}</span>
           <span className="block">{hero.titleLines[1]}</span>
@@ -20,7 +20,7 @@ export function Hero() {
           </span>
         </h1>
 
-        <p className="serif mt-6 text-[24px] md:mt-10 md:text-[32px]">
+        <p className="serif mt-6 text-[24px] md:mt-8 md:text-[30px]">
           {hero.byline}{" "}
           <Highlight draw>
             {site.brandFull}
