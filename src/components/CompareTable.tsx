@@ -32,7 +32,7 @@ export function CompareTable({ category }: { category: Category }) {
       {/* Phones: one block per feature, every pack side by side underneath */}
       <ul className="flex flex-col gap-2 md:hidden" aria-label={labels.compareCaption(category.label)}>
         {rows.map((row) => (
-          <li key={row.label} className="bg-paper-2 px-4 py-3.5">
+          <li key={row.label} className="rounded-md bg-paper-2 px-4 py-3.5">
             <p className="text-[15px] font-semibold">{row.label}</p>
             <dl
               className="mt-2.5 grid gap-2"
@@ -42,7 +42,7 @@ export function CompareTable({ category }: { category: Category }) {
                 <div
                   key={col}
                   className={clsx(
-                    "flex flex-col gap-1 bg-paper px-2.5 py-2",
+                    "flex flex-col gap-1 rounded-[4px] bg-paper px-2.5 py-2",
                     i === featuredCol && "border-t-[3px] border-lime",
                   )}
                 >

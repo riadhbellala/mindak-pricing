@@ -17,7 +17,7 @@ export function OptionsGrid({ category }: { category: Category }) {
       {options.map((option, i) => (
         <div
           key={i}
-          className="flex flex-col bg-paper-2 p-5 sm:p-6"
+          className="flex flex-col rounded-md border border-ink/8 bg-paper-2 p-5 transition-[border-color] duration-200 sm:p-6 [@media(hover:hover)]:hover:border-ink/30"
           data-reveal
           style={{ "--i": i } as React.CSSProperties}
         >
@@ -53,7 +53,7 @@ export function OptionsGrid({ category }: { category: Category }) {
       {remainder > 0 && (
         <div
           className={clsx(
-            "flex flex-col justify-between gap-6 border border-ink/15 p-5 sm:p-6",
+            "flex flex-col justify-between gap-6 rounded-md border border-dashed border-ink/25 p-5 sm:p-6",
             fillSpan[remainder],
           )}
           data-reveal

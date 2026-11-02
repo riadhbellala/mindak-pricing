@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#F1EEE8",
+  themeColor: "#0E0E0E",
 };
 
 /** Marks the document as scripted before paint so reveal styles only apply when JS runs. */

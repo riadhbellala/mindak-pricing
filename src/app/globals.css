@@ -1,17 +1,24 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-paper: #f1eee8;
-  --color-paper-2: #e8e4dc;
-  --color-ink: #0e0e0e;
-  --color-ink-2: #5c5a55;
-  --color-rule: #0e0e0e1f;
-  --color-rule-ink: #f1eee829;
+  /*
+   * Dark theme. Token names keep their roles, not their brightness:
+   * "paper" = page ground, "ink" = foreground. The featured card and the closing
+   * block use the inverse (bg-ink), so they become the light moments on a dark page.
+   */
+  --color-paper: #0e0e0e;
+  --color-paper-2: #1a1a18;
+  --color-ink: #f1eee8;
+  --color-ink-2: #a9a59d;
+  --color-rule: #f1eee81f;
+  --color-rule-ink: #0e0e0e1f;
   --color-lime: #e3f06b;
+  /* Text that sits on lime is always true black, whatever the theme */
+  --color-onlime: #0e0e0e;
   --color-signal: #f25c1f;
   --color-sky: #8ccbf0;
   /* Secondary text on the ink surface: paper at 70%, ~10:1 on ink */
-  --color-paper-dim: #f1eee8b3;
+  --color-paper-dim: #0e0e0eb3;
 
   --font-sans: var(--font-inter-tight), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
@@ -25,6 +32,7 @@
 
 @layer base {
   html {
+    color-scheme: dark;
     background: var(--color-paper);
     color: var(--color-ink);
     -webkit-text-size-adjust: 100%;
@@ -41,7 +49,7 @@
 
   ::selection {
     background: var(--color-lime);
-    color: var(--color-ink);
+    color: var(--color-onlime);
   }
 
   :focus-visible {
@@ -120,7 +128,7 @@
     position: relative;
     display: inline-block;
     isolation: isolate;
-    color: var(--color-ink);
+    color: var(--color-onlime);
     padding-inline: 0.12em;
   }
   .highlight::before {

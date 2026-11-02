@@ -32,7 +32,7 @@ export function ClosingCta() {
             href={whatsappUrl(closing.whatsappMessage)}
             target="_blank"
             rel="noopener noreferrer"
-            className="press inline-flex h-12 items-center gap-3 bg-lime px-6 text-[15px] font-medium text-ink hover:bg-paper"
+            className="press inline-flex h-13 items-center gap-3 bg-paper px-6 text-[16px] font-semibold text-ink hover:bg-lime hover:text-onlime"
           >
             {closing.whatsapp}
             <ArrowRight />

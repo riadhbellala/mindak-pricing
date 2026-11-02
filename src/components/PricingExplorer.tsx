@@ -88,14 +88,14 @@ export function PricingExplorer() {
                   onClick={() => select(c.id)}
                   className={clsx(
                     "relative isolate flex h-13 shrink-0 items-center px-3.5 text-[15px] font-semibold whitespace-nowrap transition-colors duration-150 md:h-15 md:px-5 md:text-[16px]",
-                    selected ? "text-ink" : "text-ink-2 hover:text-ink",
+                    selected ? "text-onlime" : "text-ink-2 hover:text-ink",
                   )}
                 >
                   {selected && (
                     <motion.span
                       layoutId="tab-indicator"
                       aria-hidden="true"
-                      className="absolute inset-x-0 inset-y-2 -z-10 bg-lime md:inset-y-2.5"
+                      className="absolute inset-x-0 inset-y-2 -z-10 rounded-[4px] bg-lime md:inset-y-2.5"
                       transition={reduce ? { duration: 0 } : tabIndicator}
                     />
                   )}
