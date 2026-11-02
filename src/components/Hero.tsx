@@ -1,0 +1,35 @@
+import { hero, site } from "@/content/pricing";
+import { Container } from "./Container";
+import { CornerFrame } from "./CornerFrame";
+import { Highlight } from "./Highlight";
+
+export function Hero() {
+  return (
+    <section id="top" aria-labelledby="hero-title" className="relative pt-20 pb-14 md:pt-32 md:pb-20">
+      <CornerFrame />
+      <Container className="flex flex-col items-center text-center">
+        <h1
+          id="hero-title"
+          className="text-[44px] leading-[0.95] font-semibold tracking-[-0.04em] sm:text-[64px] md:text-[88px] lg:text-[104px]"
+        >
+          <span className="block">{hero.titleLines[0]}</span>
+          <span className="block">{hero.titleLines[1]}</span>
+          <span className="block">
+            {hero.titleLines[2]}{" "}
+            <em className="serif text-[1.1em] font-normal tracking-[-0.02em] italic">{hero.titleItalic}</em>
+          </span>
+        </h1>
+
+        <p className="serif mt-8 text-[24px] md:mt-10 md:text-[32px]">
+          {hero.byline}{" "}
+          <Highlight draw>
+            {site.brandFull}
+            <span className="font-sans text-[0.55em] align-[0.6em]">©</span>
+          </Highlight>
+        </p>
+
+        <p className="mt-5 max-w-[46ch] text-[16px] leading-[1.55] text-ink-2 md:text-[17px]">{hero.sub}</p>
+      </Container>
+    </section>
+  );
+}

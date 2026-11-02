@@ -1,0 +1,2744 @@
+{
+ "url": "http://localhost:3100/",
+ "at": "2026-11-02T16:08:03.204Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.25,
+    0.39,
+    0.23,
+    0.3,
+    0.78
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 1,
+    "transitions": 13,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4165,
+     "screens": 4.6,
+     "words": 331,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 19,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Des offres claires pour des projets qui durent.",
+     "words": 8,
+     "chars": 47,
+     "lines": 3,
+     "size": 121,
+     "vw": 8.4,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.8,
+     "upper": false,
+     "italic": true,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.73,
+     "top": 136,
+     "mixedFonts": [
+      "Inter Tight",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Des offres claires pour des projets qui durent.",
+     "words": 8,
+     "lines": 3,
+     "size": 112,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Des offres claires pour des projets qui durent.",
+      "words": 8,
+      "chars": 47,
+      "lines": 3,
+      "size": 121,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.8,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 136,
+      "mixedFonts": [
+       "Inter Tight",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Par Mindak Creative Agency©",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.25,
+      "top": 627,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Inter Tight"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Sites vitrine.",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 76,
+      "vw": 5.3,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.45,
+      "top": 1013,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Starter — 3 pages",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 1222,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Premium — 8 pages",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 1349,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Options à la carte.",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 76,
+      "vw": 5.3,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.45,
+      "top": 2293,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Web app installable (PWA)",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 2442,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Système de réservation",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 2442,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Page supplémentaire",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 2442,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Langue supplémentaire",
+      "words": 2,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 2442,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Comparatif détaillé.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 76,
+      "vw": 5.3,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.45,
+      "top": 2823,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Starter",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.2,
+      "top": 2952,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "Premium",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 2952,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "Un projet en tête ? On en parle.",
+      "words": 8,
+      "chars": 32,
+      "lines": 3,
+      "size": 112,
+      "vw": 7.8,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 3642,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 1,
+     "centered": 2,
+     "medianWords": 3,
+     "mixedFontHeadings": 5
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Tight",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.12,
+       "mono": false
+      },
+      {
+       "family": "IBM Plex Sans Arabic",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      17,
+      22,
+      24,
+      28,
+      40,
+      76,
+      112,
+      121
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Tight",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.7
+     },
+     "measureChars": 53,
+     "max": {
+      "size": 121,
+      "vw": 8.4,
+      "font": "Instrument Serif",
+      "text": "durent."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.18,
+     "centerShare": 0.05,
+     "smallText": 13
+    },
+    "eyebrows": [
+     {
+      "text": "(01)",
+      "above": "Starter — 3 pages",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1174
+     },
+     {
+      "text": "Sites vitrine",
+      "above": "Premium",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2871
+     }
+    ],
+    "numbered": [
+     {
+      "text": "(01)",
+      "size": 12,
+      "top": 1013
+     },
+     {
+      "text": "(01)",
+      "size": 12,
+      "top": 1174
+     },
+     {
+      "text": "(02)",
+      "size": 12,
+      "top": 1246
+     },
+     {
+      "text": "(02)",
+      "size": 12,
+      "top": 2293
+     },
+     {
+      "text": "(03)",
+      "size": 12,
+      "top": 2823
+     }
+    ],
+    "color": {
+     "bodyBg": "#f1eee8",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.24,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f1eee8",
+       "top": 1142,
+       "hsl": {
+        "h": 40,
+        "s": 0.24,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#0e0e0e",
+       "top": 1142,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.48
+      },
+      {
+       "color": "#5d5a54",
+       "share": 0.29
+      },
+      {
+       "color": "#f1eee8",
+       "share": 0.23
+      }
+     ],
+     "button": {
+      "bg": "#e2f06a",
+      "hsl": {
+       "h": 66,
+       "s": 0.82,
+       "l": 0.68
+      },
+      "fg": "#0e0e0e"
+     },
+     "lowContrast": [
+      {
+       "text": "parle.",
+       "ratio": 1,
+       "need": 3,
+       "size": 112,
+       "fg": "#0e0e0e",
+       "bg": "#0e0e0e"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 0,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 23,
+     "hairlineSamples": [
+      "header.sticky.top-0 1440px",
+      "div.grid.grid-cols-1 1120px",
+      "div.sticky.top-14 1440px",
+      "div.isolate.grid 1120px",
+      "ul.border-b.border-rule 496px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2421
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 56,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter tight",
+     "instrument serif",
+     "ibm plex sans arabic",
+     "ibm plex sans arabic fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4165,
+    "margins": {
+     "left": 12,
+     "right": 12
+    },
+    "sections": [
+     {
+      "sel": "section#top.relative.flex",
+      "tag": "section",
+      "top": 56,
+      "height": 787,
+      "words": 51,
+      "media": 0,
+      "middle": 120,
+      "heading": {
+       "text": "durent.",
+       "size": 121,
+       "tag": "h1"
+      },
+      "left": 12,
+      "right": 12,
+      "textLeft": 12,
+      "textRight": 12,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 901,
+      "height": 2573,
+      "words": 212,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sites",
+       "size": 76,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 160,
+      "textLeft": 160,
+      "textRight": 160,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.relative.bg-ink",
+      "tag": "section",
+      "top": 3474,
+      "height": 622,
+      "words": 7,
+      "media": 0,
+      "middle": 1252,
+      "heading": null,
+      "left": 12,
+      "right": 12,
+      "textLeft": 12,
+      "textRight": 12,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Des offres claires pour des projets qui durent.",
+      "size": 112,
+      "top": 136,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Mindak Studio",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "2026",
+      "side": "right",
+      "px": 12
+     },
+     {
+      "text": "All rights reserved",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "+213",
+      "side": "right",
+      "px": 12
+     },
+     {
+      "text": "Mindak Studio",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "2026",
+      "side": "right",
+      "px": 12
+     },
+     {
+      "text": "All rights reserved",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "+213",
+      "side": "right",
+      "px": 12
+     }
+    ],
+    "edges": [
+     {
+      "x": 160,
+      "n": 5
+     },
+     {
+      "x": 351,
+      "n": 3
+     },
+     {
+      "x": 192,
+      "n": 1
+     },
+     {
+      "x": 320,
+      "n": 1
+     },
+     {
+      "x": 446,
+      "n": 1
+     },
+     {
+      "x": 472,
+      "n": 1
+     },
+     {
+      "x": 553,
+      "n": 1
+     },
+     {
+      "x": 643,
+      "n": 1
+     },
+     {
+      "x": 732,
+      "n": 1
+     },
+     {
+      "x": 753,
+      "n": 1
+     },
+     {
+      "x": 827,
+      "n": 1
+     },
+     {
+      "x": 1018,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.18,
+    "voidBox": {
+     "x": 960,
+     "y": 120,
+     "w": 480,
+     "h": 480
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.19,
+    0.51,
+    0.19,
+    0.63,
+    0.69
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 1,
+    "transitions": 13,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4279,
+     "screens": 4.2,
+     "words": 331,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 19,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Des offres claires pour des projets qui durent.",
+     "words": 8,
+     "chars": 47,
+     "lines": 3,
+     "size": 66.4,
+     "vw": 8.6,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.8,
+     "upper": false,
+     "italic": true,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.76,
+     "top": 136,
+     "mixedFonts": [
+      "Inter Tight",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Des offres claires pour des projets qui durent.",
+     "words": 8,
+     "lines": 3,
+     "size": 61.4,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Des offres claires pour des projets qui durent.",
+      "words": 8,
+      "chars": 47,
+      "lines": 3,
+      "size": 66.4,
+      "vw": 8.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.8,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 136,
+      "mixedFonts": [
+       "Inter Tight",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Par Mindak Creative Agency©",
+      "words": 4,
+      "chars": 27,
+      "lines": 4,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.28,
+      "top": 649,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Inter Tight"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Sites vitrine.",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.51,
+      "top": 1086,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Starter — 3 pages",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 1269,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Premium — 8 pages",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 1396,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Options à la carte.",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.51,
+      "top": 2340,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Web app installable (PWA)",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 2462,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Système de réservation",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2462,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Page supplémentaire",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 2719,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Langue supplémentaire",
+      "words": 2,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2719,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Comparatif détaillé.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.51,
+      "top": 3100,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Starter",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.23,
+      "top": 3203,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "Premium",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 3203,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "Un projet en tête ? On en parle.",
+      "words": 8,
+      "chars": 32,
+      "lines": 3,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 3893,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 4,
+     "over2Lines": 2,
+     "statements": 1,
+     "centered": 2,
+     "medianWords": 3,
+     "mixedFontHeadings": 5
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Tight",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.12,
+       "mono": false
+      },
+      {
+       "family": "IBM Plex Sans Arabic",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      17,
+      22,
+      24,
+      28,
+      40,
+      48,
+      61,
+      66
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Tight",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.7
+     },
+     "measureChars": 32,
+     "max": {
+      "size": 66.4,
+      "vw": 8.6,
+      "font": "Instrument Serif",
+      "text": "durent."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.18,
+     "centerShare": 0.05,
+     "smallText": 13
+    },
+    "eyebrows": [
+     {
+      "text": "Mindak Studio",
+      "above": "Des offres claires pour des projets qui ",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 68
+     },
+     {
+      "text": "(01)",
+      "above": "Starter — 3 pages",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1221
+     },
+     {
+      "text": "+ Ajouter",
+      "above": "Page supplémentaire",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 2637
+     },
+     {
+      "text": "+ Ajouter",
+      "above": "Langue supplémentaire",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 2637
+     },
+     {
+      "text": "Sites vitrine",
+      "above": "Premium",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3122
+     }
+    ],
+    "numbered": [
+     {
+      "text": "(01)",
+      "size": 12,
+      "top": 1086
+     },
+     {
+      "text": "(01)",
+      "size": 12,
+      "top": 1221
+     },
+     {
+      "text": "(02)",
+      "size": 12,
+      "top": 1292
+     },
+     {
+      "text": "(02)",
+      "size": 12,
+      "top": 2340
+     },
+     {
+      "text": "(03)",
+      "size": 12,
+      "top": 3100
+     }
+    ],
+    "color": {
+     "bodyBg": "#f1eee8",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.24,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f1eee8",
+       "top": 1189,
+       "hsl": {
+        "h": 40,
+        "s": 0.24,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#0e0e0e",
+       "top": 1189,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.48
+      },
+      {
+       "color": "#5d5a54",
+       "share": 0.29
+      },
+      {
+       "color": "#f1eee8",
+       "share": 0.23
+      }
+     ],
+     "button": {
+      "bg": "#e2f06a",
+      "hsl": {
+       "h": 66,
+       "s": 0.82,
+       "l": 0.68
+      },
+      "fg": "#0e0e0e"
+     },
+     "lowContrast": [
+      {
+       "text": "parle.",
+       "ratio": 1,
+       "need": 3,
+       "size": 61.4,
+       "fg": "#0e0e0e",
+       "bg": "#0e0e0e"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 0,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 23,
+     "hairlineSamples": [
+      "header.sticky.top-0 768px",
+      "div.grid.grid-cols-1 688px",
+      "div.sticky.top-14 768px",
+      "div.isolate.grid 688px",
+      "ul.border-b.border-rule 280px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2441
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 56,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter tight",
+     "instrument serif",
+     "ibm plex sans arabic",
+     "ibm plex sans arabic fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4279,
+    "margins": {
+     "left": 12,
+     "right": 12
+    },
+    "sections": [
+     {
+      "sel": "section#top.relative.flex",
+      "tag": "section",
+      "top": 56,
+      "height": 860,
+      "words": 51,
+      "media": 0,
+      "middle": 8,
+      "heading": {
+       "text": "durent.",
+       "size": 66,
+       "tag": "h1"
+      },
+      "left": 12,
+      "right": 12,
+      "textLeft": 12,
+      "textRight": 12,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 974,
+      "height": 2751,
+      "words": 212,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sites",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.relative.bg-ink",
+      "tag": "section",
+      "top": 3725,
+      "height": 486,
+      "words": 7,
+      "media": 0,
+      "middle": 580,
+      "heading": null,
+      "left": 12,
+      "right": 12,
+      "textLeft": 12,
+      "textRight": 12,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Des offres claires pour des projets qui durent.",
+      "size": 61,
+      "top": 136,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Mindak Studio",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "2026",
+      "side": "right",
+      "px": 12
+     },
+     {
+      "text": "All rights reserved",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "+213",
+      "side": "right",
+      "px": 12
+     },
+     {
+      "text": "Mindak Studio",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "2026",
+      "side": "right",
+      "px": 12
+     },
+     {
+      "text": "All rights reserved",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "+213",
+      "side": "right",
+      "px": 12
+     }
+    ],
+    "edges": [
+     {
+      "x": 40,
+      "n": 6
+     },
+     {
+      "x": 159,
+      "n": 3
+     },
+     {
+      "x": 396,
+      "n": 2
+     },
+     {
+      "x": 72,
+      "n": 1
+     },
+     {
+      "x": 128,
+      "n": 1
+     },
+     {
+      "x": 236,
+      "n": 1
+     },
+     {
+      "x": 286,
+      "n": 1
+     },
+     {
+      "x": 343,
+      "n": 1
+     },
+     {
+      "x": 417,
+      "n": 1
+     },
+     {
+      "x": 455,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 360,
+   "height": 225,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.36,
+    0.31,
+    0.43,
+    0.28,
+    0.55,
+    0.51,
+    0.55,
+    0.3,
+    0.27,
+    0.27,
+    0.23,
+    0.3
+   ],
+   "motion": {
+    "elements": 9,
+    "css": 1,
+    "transitions": 7,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 459,
+     "h": 287
+    },
+    "page": {
+     "height": 4927,
+     "screens": 17.2,
+     "words": 326,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 19,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Des offres claires pour des projets qui durent.",
+     "words": 8,
+     "chars": 47,
+     "lines": 4,
+     "size": 51.8,
+     "vw": 11.3,
+     "font": "Instrument Serif",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.8,
+     "upper": false,
+     "italic": true,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.7,
+     "top": 120,
+     "mixedFonts": [
+      "Inter Tight",
+      "Instrument Serif italic"
+     ],
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Des offres claires pour des projets qui durent.",
+     "words": 8,
+     "lines": 4,
+     "size": 48,
+     "font": "Inter Tight"
+    },
+    "headings": [
+     {
+      "text": "Mindak",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 22,
+      "vw": 4.8,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.15,
+      "top": 17,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Des offres claires pour des projets qui durent.",
+      "words": 8,
+      "chars": 47,
+      "lines": 4,
+      "size": 51.8,
+      "vw": 11.3,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.8,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 120,
+      "mixedFonts": [
+       "Inter Tight",
+       "Instrument Serif italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Par Mindak Creative Agency©",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 34,
+      "vw": 7.4,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 424,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Inter Tight"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Sites vitrine.",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 44,
+      "vw": 9.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 846,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Premium — 8 pages",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 7.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 1058,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Starter — 3 pages",
+      "words": 4,
+      "chars": 17,
+      "lines": 1,
+      "size": 36,
+      "vw": 7.8,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 1795,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Options à la carte.",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 44,
+      "vw": 9.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 2500,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Web app installable (PWA)",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 28,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 2629,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Système de réservation",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 28,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 2894,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Page supplémentaire",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 28,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 3152,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Langue supplémentaire",
+      "words": 2,
+      "chars": 21,
+      "lines": 1,
+      "size": 28,
+      "vw": 6.1,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 3409,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Comparatif détaillé.",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 44,
+      "vw": 9.6,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 3721,
+      "mixedFonts": [
+       "Instrument Serif",
+       "Instrument Serif italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Starter",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 24,
+      "vw": 5.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 3822,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "Premium",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 24,
+      "vw": 5.2,
+      "font": "Instrument Serif",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 3822,
+      "tag": "th",
+      "kind": "heading"
+     },
+     {
+      "text": "Un projet en tête ? On en parle.",
+      "words": 8,
+      "chars": 32,
+      "lines": 3,
+      "size": 48,
+      "vw": 10.5,
+      "font": "Inter Tight",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 4413,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 4,
+     "over2Lines": 2,
+     "statements": 1,
+     "centered": 2,
+     "medianWords": 3,
+     "mixedFontHeadings": 5
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter Tight",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Instrument Serif",
+       "share": 0.13,
+       "mono": false
+      },
+      {
+       "family": "IBM Plex Sans Arabic",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      22,
+      24,
+      28,
+      34,
+      36,
+      44,
+      48,
+      52
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter Tight",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.7
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 51.8,
+      "vw": 11.3,
+      "font": "Instrument Serif",
+      "text": "durent."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.18,
+     "centerShare": 0.03,
+     "smallText": 13
+    },
+    "eyebrows": [
+     {
+      "text": "(00) — Tarifs",
+      "above": "Par Mindak Creative Agency©",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 386
+     },
+     {
+      "text": "Le plus choisi",
+      "above": "Premium — 8 pages",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 1004
+     },
+     {
+      "text": "(01)",
+      "above": "Starter — 3 pages",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 1748
+     },
+     {
+      "text": "+ Ajouter",
+      "above": "Système de réservation",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 2804
+     },
+     {
+      "text": "+ Ajouter",
+      "above": "Page supplémentaire",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 3070
+     },
+     {
+      "text": "+ Ajouter",
+      "above": "Langue supplémentaire",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 3327
+     }
+    ],
+    "numbered": [
+     {
+      "text": "(01)",
+      "size": 11,
+      "top": 900
+     },
+     {
+      "text": "(01)",
+      "size": 11,
+      "top": 1748
+     },
+     {
+      "text": "(02)",
+      "size": 11,
+      "top": 1008
+     },
+     {
+      "text": "(02)",
+      "size": 11,
+      "top": 2554
+     },
+     {
+      "text": "(03)",
+      "size": 11,
+      "top": 3775
+     }
+    ],
+    "color": {
+     "bodyBg": "#f1eee8",
+     "bodyBgHsl": {
+      "h": 40,
+      "s": 0.24,
+      "l": 0.93
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f1eee8",
+       "top": 1716,
+       "hsl": {
+        "h": 40,
+        "s": 0.24,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#0e0e0e",
+       "top": 955,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e0e0e",
+       "share": 0.49
+      },
+      {
+       "color": "#5d5a54",
+       "share": 0.27
+      },
+      {
+       "color": "#f1eee8",
+       "share": 0.24
+      }
+     ],
+     "button": {
+      "bg": "#e2f06a",
+      "hsl": {
+       "h": 66,
+       "s": 0.82,
+       "l": 0.68
+      },
+      "fg": "#0e0e0e"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 0,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 23,
+     "hairlineSamples": [
+      "header.sticky.top-0 360px",
+      "div.grid.grid-cols-1 320px",
+      "div.sticky.top-14 360px",
+      "div.isolate.grid 320px",
+      "ul.border-b.border-rule 280px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2608
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 56,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter tight",
+     "instrument serif",
+     "ibm plex sans arabic",
+     "ibm plex sans arabic fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 459,
+     "h": 287
+    },
+    "pageH": 4927,
+    "margins": {
+     "left": 12,
+     "right": 111
+    },
+    "sections": [
+     {
+      "sel": "section#top.relative.flex",
+      "tag": "section",
+      "top": 56,
+      "height": 676,
+      "words": 51,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "durent.",
+       "size": 52,
+       "tag": "h1"
+      },
+      "left": 12,
+      "right": 111,
+      "textLeft": 12,
+      "textRight": 111,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 782,
+      "height": 3511,
+      "words": 160,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sites",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 119,
+      "textLeft": 20,
+      "textRight": 119,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.relative.bg-ink",
+      "tag": "section",
+      "top": 4293,
+      "height": 534,
+      "words": 7,
+      "media": 0,
+      "middle": 186,
+      "heading": null,
+      "left": 12,
+      "right": 111,
+      "textLeft": 12,
+      "textRight": 111,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Des offres claires pour des projets qui durent.",
+      "size": 48,
+      "top": 120,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Mindak Studio",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "All rights reserved",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "Mindak Studio",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "All rights reserved",
+      "side": "left",
+      "px": 12
+     }
+    ],
+    "edges": [
+     {
+      "x": 20,
+      "n": 8
+     },
+     {
+      "x": 40,
+      "n": 2
+     },
+     {
+      "x": 89,
+      "n": 2
+     },
+     {
+      "x": 137,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "2 headline(s) wrap past two lines at 1440px: \"Des offres claires pour des projets qui durent.\" → 3 lines (8 words, 121px); \"Un projet en tête ? On en parle.\" → 3 lines (8 words, 112px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "5 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "2 eyebrow/kicker label(s) above headings: \"(01)\" above \"Starter — 3 pages\"; \"Sites vitrine\" above \"Premium\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"(01)\", \"(01)\", \"(02)\", \"(02)\", \"(03)\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "23 thin rule(s)/divider line(s): header.sticky.top-0 1440px | div.grid.grid-cols-1 1120px | div.sticky.top-14 1440px | div.isolate.grid 1120px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f1eee8, section #f1eee8, text #f1eee8).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Unreadable text: \"parle.\" 1:1 (#0e0e0e on #0e0e0e)",
+   "fix": "Raise contrast to at least 4.5:1 for text, 3:1 for large display.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Inter Tight, Instrument Serif, IBM Plex Sans Arabic).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (12, 13, 14, 15, 17, 22, 24, 28, 40, 76, 112, 121).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "13 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    360
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "8 text block(s) sit within 16px of the screen edge: \"Mindak Studio\" (12px from the left); \"2026\" (12px from the right); \"All rights reserved\" (12px from the left); \"+213\" (12px from the right)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 12 different lines (160px, 351px, 192px, 320px, 446px, 472px, 553px); the three most used hold only 50% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 15 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "3 headline(s) wrap past two lines at 768px: \"Des offres claires pour des projets qui durent.\" → 3 lines (8 words, 66.4px); \"Par Mindak Creative Agency©\" → 4 lines (4 words, 40px, a paragraph set above 32px); \"Un projet en tête ? On en parle.\" → 3 lines (8 words, 61.4px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 360,
+   "message": "2 headline(s) wrap past two lines at 360px: \"Des offres claires pour des projets qui durent.\" → 4 lines (8 words, 51.8px); \"Un projet en tête ? On en parle.\" → 3 lines (8 words, 48px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 360,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 360,
+   "message": "The page sits off-centre: its content comes to 12px from the left edge but only to 111px from the right, at 360px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 360,
+   "message": "4 text block(s) sit 12–15px from the phone's edge: \"Mindak Studio\" (12px); \"All rights reserved\" (12px); \"Mindak Studio\" (12px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/riadh/Desktop/mindak-pricing/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/Users/riadh/Desktop/mindak-pricing/.taste-skill/inspect/desktop-page-01.jpg",
+    "/Users/riadh/Desktop/mindak-pricing/.taste-skill/inspect/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/riadh/Desktop/mindak-pricing/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/Users/riadh/Desktop/mindak-pricing/.taste-skill/inspect/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 360,
+   "fold": "/Users/riadh/Desktop/mindak-pricing/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/Users/riadh/Desktop/mindak-pricing/.taste-skill/inspect/mobile-page-01.jpg",
+    "/Users/riadh/Desktop/mindak-pricing/.taste-skill/inspect/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
