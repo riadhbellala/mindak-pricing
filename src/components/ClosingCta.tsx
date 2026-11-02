@@ -9,7 +9,7 @@ export function ClosingCta() {
     <section
       aria-labelledby="closing-title"
       data-surface="ink"
-      className="relative bg-ink py-24 text-paper md:py-32"
+      className="relative bg-ink py-16 text-paper md:py-32"
     >
       <CornerFrame />
       <Container className="flex flex-col items-center text-center">

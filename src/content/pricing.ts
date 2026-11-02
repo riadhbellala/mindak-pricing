@@ -8,6 +8,8 @@ export type CategoryId = "vitrine" | "ecommerce" | "saas" | "ia";
 export type Plan = {
   id: string;
   name: string;
+  /** Short size line shown next to the name, e.g. "3 pages" */
+  detail?: string;
   pitch: string;
   price: number;
   cta: string;
@@ -172,7 +174,8 @@ export const categories: Category[] = [
     plans: [
       {
         id: "starter",
-        name: "Starter — 3 pages",
+        name: "Starter",
+        detail: "3 pages",
         pitch: "L'essentiel pour être visible et bien référencé localement.",
         price: 45000,
         cta: "Lancer mon site",
@@ -186,7 +189,8 @@ export const categories: Category[] = [
       },
       {
         id: "premium",
-        name: "Premium — 8 pages",
+        name: "Premium",
+        detail: "8 pages",
         pitch: "Un site sur mesure, animé, pensé pour marquer.",
         price: 89000,
         cta: "Passer au Premium",
@@ -236,7 +240,8 @@ export const categories: Category[] = [
     plans: [
       {
         id: "landing",
-        name: "Landing page — 1 produit",
+        name: "Landing page",
+        detail: "1 produit",
         pitch: "Une seule page, construite pour vendre un produit.",
         price: 17000,
         cta: "Lancer ma landing",
@@ -501,6 +506,11 @@ export const categories: Category[] = [
     },
   },
 ];
+
+/** "Premium — 8 pages": the full pack name used in WhatsApp messages. */
+export function planFullName(plan: Plan): string {
+  return plan.detail ? `${plan.name} — ${plan.detail}` : plan.name;
+}
 
 /** "89000" -> "89 000" with a narrow no-break space (U+202F). */
 export function formatPrice(value: number): string {

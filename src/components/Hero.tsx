@@ -5,7 +5,7 @@ import { Highlight } from "./Highlight";
 
 export function Hero() {
   return (
-    <section id="top" aria-labelledby="hero-title" className="relative pt-20 pb-14 md:pt-32 md:pb-20">
+    <section id="top" aria-labelledby="hero-title" className="relative pt-14 pb-10 md:pt-32 md:pb-20">
       <CornerFrame />
       <Container className="flex flex-col items-center text-center">
         <h1
@@ -20,7 +20,7 @@ export function Hero() {
           </span>
         </h1>
 
-        <p className="serif mt-8 text-[24px] md:mt-10 md:text-[32px]">
+        <p className="serif mt-6 text-[24px] md:mt-10 md:text-[32px]">
           {hero.byline}{" "}
           <Highlight draw>
             {site.brandFull}
@@ -28,7 +28,7 @@ export function Hero() {
           </Highlight>
         </p>
 
-        <p className="mt-5 max-w-[46ch] text-[16px] leading-[1.55] text-ink-2 md:text-[17px]">{hero.sub}</p>
+        <p className="mt-5 max-w-[46ch] text-[17px] leading-[1.55] text-ink-2 md:text-[19px]">{hero.sub}</p>
       </Container>
     </section>
   );

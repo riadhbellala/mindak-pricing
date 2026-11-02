@@ -14,11 +14,15 @@ export function SectionHeader({
 }) {
   return (
     <Container className="flex flex-col items-center text-center">
-      <h2 id={id} className="serif text-[40px] md:text-[56px]" data-reveal>
-        {roman} <em className="italic">{italic}</em>
+      <h2
+        id={id}
+        className="text-[36px] leading-[1.05] font-semibold tracking-[-0.035em] md:text-[52px]"
+        data-reveal
+      >
+        {roman} <em className="serif text-[1.12em] font-normal tracking-[-0.02em] italic">{italic}</em>
       </h2>
       {note && (
-        <p className="mt-3 text-[15px] text-ink-2" data-reveal style={{ "--i": 1 } as React.CSSProperties}>
+        <p className="mt-3 max-w-[52ch] text-[16px] leading-[1.5] text-ink-2 md:text-[18px]" data-reveal style={{ "--i": 1 } as React.CSSProperties}>
           {note}
         </p>
       )}

@@ -87,7 +87,7 @@ export function PricingExplorer() {
                   tabIndex={selected ? 0 : -1}
                   onClick={() => select(c.id)}
                   className={clsx(
-                    "relative isolate flex h-12 shrink-0 items-center px-3 text-[14px] font-medium whitespace-nowrap transition-colors duration-150 md:h-14 md:px-4 md:text-[15px]",
+                    "relative isolate flex h-13 shrink-0 items-center px-3.5 text-[15px] font-semibold whitespace-nowrap transition-colors duration-150 md:h-15 md:px-5 md:text-[16px]",
                     selected ? "text-ink" : "text-ink-2 hover:text-ink",
                   )}
                 >
@@ -110,14 +110,14 @@ export function PricingExplorer() {
 
         <div id="pricing-panel" role="tabpanel" aria-labelledby={`tab-${active}`}>
           {/* Plans first: the visitor came to choose a pack */}
-          <section aria-labelledby="plans-title" className="pt-16 md:pt-24">
+          <section aria-labelledby="plans-title" className="pt-12 md:pt-24">
             <SectionHeader
               id="plans-title"
               roman={category.heading[0]}
               italic={category.heading[1]}
               note={labels.plansNote}
             />
-            <Container className="mt-10 md:mt-14">
+            <Container className="mt-7 md:mt-14">
               <div
                 className={clsx(
                   "isolate mx-auto grid grid-cols-1 border-y border-ink",
@@ -135,33 +135,33 @@ export function PricingExplorer() {
           </section>
 
           {category.explainer && (
-            <section aria-labelledby="explainer-title" className="pt-20 md:pt-32">
+            <section aria-labelledby="explainer-title" className="pt-14 md:pt-32">
               <Swap id={`explainer-${category.id}`}>
                 <Explainer data={category.explainer} id="explainer-title" />
               </Swap>
             </section>
           )}
 
-          <section aria-labelledby="options-title" className="pt-20 md:pt-32">
+          <section aria-labelledby="options-title" className="pt-14 md:pt-32">
             <SectionHeader
               id="options-title"
               roman={labels.optionsRoman}
               italic={labels.optionsItalic}
               note={labels.optionsKicker}
             />
-            <Container className="mt-10 md:mt-14">
+            <Container className="mt-7 md:mt-14">
               <OptionsGrid category={category} />
             </Container>
           </section>
 
-          <section aria-labelledby="compare-title" className="pt-20 pb-24 md:pt-32 md:pb-32">
+          <section aria-labelledby="compare-title" className="pt-14 pb-16 md:pt-32 md:pb-32">
             <SectionHeader
               id="compare-title"
               roman={labels.compareRoman}
               italic={labels.compareItalic}
               note={labels.compareNote}
             />
-            <Container className="mt-10 md:mt-14">
+            <Container className="mt-7 md:mt-14">
               <Swap id={`compare-${category.id}`} className={clsx("mx-auto", category.plans.length === 2 && "max-w-[880px]")}>
                 <CompareTable category={category} />
               </Swap>

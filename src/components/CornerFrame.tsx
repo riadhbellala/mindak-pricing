@@ -6,7 +6,7 @@ import { site } from "@/content/pricing";
  */
 export function CornerFrame({ inset = "12px" }: { inset?: string }) {
   const style = { "--inset": inset } as React.CSSProperties;
-  const pos = "meta pointer-events-none absolute select-none";
+  const pos = "meta-caps pointer-events-none absolute select-none";
   return (
     <div aria-hidden="true" style={style} className="pointer-events-none absolute inset-0">
       <span className={`${pos} left-(--inset) top-(--inset)`}>{site.studio}</span>

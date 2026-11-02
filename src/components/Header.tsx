@@ -13,12 +13,12 @@ export function Header() {
           {site.brand}
         </a>
         <div className="flex items-center gap-5">
-          <span className="meta hidden min-[400px]:inline">{header.label}</span>
+          <span className="meta hidden sm:inline">{header.label}</span>
           <a
             href={whatsappUrl(whatsappMessages.general)}
             target="_blank"
             rel="noopener noreferrer"
-            className="link-underline text-[14px] font-medium text-ink"
+            className="link-underline text-[15px] font-semibold text-ink"
           >
             {header.contact}
           </a>
